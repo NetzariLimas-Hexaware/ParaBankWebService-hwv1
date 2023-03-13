@@ -8,4 +8,8 @@ public class AddDelPetsData {
 	public static String createUserBody(){
 		return "{\"id\":0,\"username\":\"string\",\"firstName\":\"string\",\"lastName\":\"string\",\"email\":\"string\",\"password\":\"string\",\"phone\":\"string\",\"userStatus\":0}";
 	}
+	
+	public static String placePetOrder(){
+		return "{\"id\":0,\"petId\":0,\"quantity\":0,\"shipDate\":\"2023-03-13T17:18:45.972+0000\",\"status\":\"placed\",\"complete\":true}";
+	}
 }
